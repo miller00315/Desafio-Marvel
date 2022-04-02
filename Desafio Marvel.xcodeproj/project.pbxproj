@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		157B7AE027F7B60000030D80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157B7ADF27F7B60000030D80 /* AppDelegate.swift */; };
 		157B7AE227F7B60000030D80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157B7AE127F7B60000030D80 /* SceneDelegate.swift */; };
-		157B7AE427F7B60000030D80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157B7AE327F7B60000030D80 /* ViewController.swift */; };
-		157B7AE727F7B60000030D80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157B7AE527F7B60000030D80 /* Main.storyboard */; };
+		157B7AE427F7B60000030D80 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157B7AE327F7B60000030D80 /* HomeViewController.swift */; };
 		157B7AE927F7B60200030D80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157B7AE827F7B60200030D80 /* Assets.xcassets */; };
 		157B7AEC27F7B60200030D80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157B7AEA27F7B60200030D80 /* LaunchScreen.storyboard */; };
+		157B7AF527F7BE1300030D80 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157B7AF427F7BE1300030D80 /* HomeCollectionViewCell.swift */; };
+		157B7AF927F7D2BF00030D80 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157B7AF827F7D2BF00030D80 /* Constants.swift */; };
+		157B7AFD27F7D3AE00030D80 /* URLRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157B7AFC27F7D3AE00030D80 /* URLRequestProtocol.swift */; };
+		157B7AFF27F7D45D00030D80 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157B7AFE27F7D45D00030D80 /* HTTPMethod.swift */; };
+		157B7B0127F7D54200030D80 /* HomeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157B7B0027F7D54200030D80 /* HomeRequest.swift */; };
+		157B7B0427F7D6B900030D80 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157B7B0327F7D6B900030D80 /* Environment.swift */; };
+		157B7B0627F7DDF800030D80 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157B7B0527F7DDF800030D80 /* MD5.swift */; };
+		157B7B0827F7EF8000030D80 /* HeroListServicesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157B7B0727F7EF8000030D80 /* HeroListServicesProtocol.swift */; };
+		157B7B0B27F7F26300030D80 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157B7B0A27F7F26300030D80 /* Hero.swift */; };
+		157B7B0D27F7F2C300030D80 /* HeroListServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157B7B0C27F7F2C300030D80 /* HeroListServices.swift */; };
+		157B7B1227F805B800030D80 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157B7B1127F805B800030D80 /* UIImageView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		157B7ADC27F7B60000030D80 /* Desafio Marvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desafio Marvel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		157B7ADF27F7B60000030D80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		157B7AE127F7B60000030D80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		157B7AE327F7B60000030D80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		157B7AE627F7B60000030D80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		157B7AE327F7B60000030D80 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		157B7AE827F7B60200030D80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		157B7AEB27F7B60200030D80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		157B7AED27F7B60200030D80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		157B7AF427F7BE1300030D80 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		157B7AF827F7D2BF00030D80 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		157B7AFC27F7D3AE00030D80 /* URLRequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestProtocol.swift; sourceTree = "<group>"; };
+		157B7AFE27F7D45D00030D80 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		157B7B0027F7D54200030D80 /* HomeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRequest.swift; sourceTree = "<group>"; };
+		157B7B0327F7D6B900030D80 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		157B7B0527F7DDF800030D80 /* MD5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
+		157B7B0727F7EF8000030D80 /* HeroListServicesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListServicesProtocol.swift; sourceTree = "<group>"; };
+		157B7B0A27F7F26300030D80 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		157B7B0C27F7F2C300030D80 /* HeroListServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListServices.swift; sourceTree = "<group>"; };
+		157B7B1127F805B800030D80 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,105 @@
 		157B7ADE27F7B60000030D80 /* Desafio Marvel */ = {
 			isa = PBXGroup;
 			children = (
-				157B7ADF27F7B60000030D80 /* AppDelegate.swift */,
-				157B7AE127F7B60000030D80 /* SceneDelegate.swift */,
-				157B7AE327F7B60000030D80 /* ViewController.swift */,
-				157B7AE527F7B60000030D80 /* Main.storyboard */,
+				157B7B1027F805A200030D80 /* Extensions */,
+				157B7B0E27F7F8B900030D80 /* Scebes */,
+				157B7B0927F7F25900030D80 /* Models */,
+				157B7B0227F7D69900030D80 /* Application */,
+				157B7AF727F7D2B300030D80 /* Commons */,
+				157B7AF627F7D2A300030D80 /* Network */,
+				157B7AF327F7BDF700030D80 /* Cells */,
 				157B7AE827F7B60200030D80 /* Assets.xcassets */,
 				157B7AEA27F7B60200030D80 /* LaunchScreen.storyboard */,
 				157B7AED27F7B60200030D80 /* Info.plist */,
 			);
 			path = "Desafio Marvel";
+			sourceTree = "<group>";
+		};
+		157B7AF327F7BDF700030D80 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				157B7AF427F7BE1300030D80 /* HomeCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		157B7AF627F7D2A300030D80 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				157B7AFA27F7D33A00030D80 /* Services */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		157B7AF727F7D2B300030D80 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				157B7AF827F7D2BF00030D80 /* Constants.swift */,
+				157B7B0527F7DDF800030D80 /* MD5.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		157B7AFA27F7D33A00030D80 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				157B7AFB27F7D39D00030D80 /* Requests */,
+				157B7B0727F7EF8000030D80 /* HeroListServicesProtocol.swift */,
+				157B7B0C27F7F2C300030D80 /* HeroListServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		157B7AFB27F7D39D00030D80 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				157B7AFC27F7D3AE00030D80 /* URLRequestProtocol.swift */,
+				157B7AFE27F7D45D00030D80 /* HTTPMethod.swift */,
+				157B7B0027F7D54200030D80 /* HomeRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		157B7B0227F7D69900030D80 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				157B7ADF27F7B60000030D80 /* AppDelegate.swift */,
+				157B7AE127F7B60000030D80 /* SceneDelegate.swift */,
+				157B7B0327F7D6B900030D80 /* Environment.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		157B7B0927F7F25900030D80 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				157B7B0A27F7F26300030D80 /* Hero.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		157B7B0E27F7F8B900030D80 /* Scebes */ = {
+			isa = PBXGroup;
+			children = (
+				157B7B0F27F7F8C100030D80 /* Home */,
+			);
+			path = Scebes;
+			sourceTree = "<group>";
+		};
+		157B7B0F27F7F8C100030D80 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				157B7AE327F7B60000030D80 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		157B7B1027F805A200030D80 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				157B7B1127F805B800030D80 /* UIImageView+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +237,6 @@
 			files = (
 				157B7AEC27F7B60200030D80 /* LaunchScreen.storyboard in Resources */,
 				157B7AE927F7B60200030D80 /* Assets.xcassets in Resources */,
-				157B7AE727F7B60000030D80 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +247,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				157B7AE427F7B60000030D80 /* ViewController.swift in Sources */,
+				157B7AF927F7D2BF00030D80 /* Constants.swift in Sources */,
+				157B7B0827F7EF8000030D80 /* HeroListServicesProtocol.swift in Sources */,
+				157B7AE427F7B60000030D80 /* HomeViewController.swift in Sources */,
+				157B7AFF27F7D45D00030D80 /* HTTPMethod.swift in Sources */,
 				157B7AE027F7B60000030D80 /* AppDelegate.swift in Sources */,
+				157B7B0D27F7F2C300030D80 /* HeroListServices.swift in Sources */,
+				157B7B0427F7D6B900030D80 /* Environment.swift in Sources */,
 				157B7AE227F7B60000030D80 /* SceneDelegate.swift in Sources */,
+				157B7B1227F805B800030D80 /* UIImageView+Extensions.swift in Sources */,
+				157B7B0627F7DDF800030D80 /* MD5.swift in Sources */,
+				157B7AF527F7BE1300030D80 /* HomeCollectionViewCell.swift in Sources */,
+				157B7B0127F7D54200030D80 /* HomeRequest.swift in Sources */,
+				157B7AFD27F7D3AE00030D80 /* URLRequestProtocol.swift in Sources */,
+				157B7B0B27F7F26300030D80 /* Hero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		157B7AE527F7B60000030D80 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				157B7AE627F7B60000030D80 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		157B7AEA27F7B60200030D80 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +404,6 @@
 				INFOPLIST_FILE = "Desafio Marvel/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,7 +415,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,7 +431,6 @@
 				INFOPLIST_FILE = "Desafio Marvel/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +442,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

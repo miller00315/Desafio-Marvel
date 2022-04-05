@@ -9,7 +9,7 @@ import Foundation
 
 enum HomeRequest: URLRequestProtocol {
     case home
-    case details
+    case events
     
     var baseURL: String {
         return Environment.baseURL
@@ -21,8 +21,8 @@ enum HomeRequest: URLRequestProtocol {
         switch self {
         case .home:
             return "limit=30&ts=\(timestamp)&apikey=\(Environment.publicKey)&hash=\(hashMD5(timestamp: timestamp))"
-        case .details:
-            return "details=4324325"
+        case .events:
+            return "limit=10&ts=\(timestamp)&apikey=\(Environment.publicKey)&hash=\(hashMD5(timestamp: timestamp))"
         }
     }
     

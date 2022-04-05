@@ -13,11 +13,10 @@ class HomeCollectionViewCell: UICollectionViewCell {
     lazy var heroImage: UIImageView = {
         let image = UIImageView()
         
-        image.image = UIImage(systemName: "person.fill")
         image.layer.cornerRadius = 10
         image.layer.accessibilityPath?.stroke()
         image.layer.borderColor = CGColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
-        image.layer.borderWidth = 0.5
+        image.layer.borderWidth = 0.8
         image.translatesAutoresizingMaskIntoConstraints = false
         
         return image

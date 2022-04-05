@@ -14,7 +14,7 @@ enum HeroError: Error {
     case noProcessedData
 }
 
-protocol HeroListServicesProtocol: AnyObject {
+protocol HomeListServicesProtocol: AnyObject {
     func execute(handler: @escaping(Result<Hero, HeroError>) -> Void)
     
 }

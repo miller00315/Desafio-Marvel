@@ -1,21 +1,22 @@
 //
-//  HeroListServices.swift
+//  EventListServices.swift
 //  Desafio Marvel
 //
-//  Created by Felipe Brigagão de Almeida on 01/04/22.
+//  Created by Felipe Brigagão de Almeida on 02/04/22.
 //
 
 import Foundation
 
-class HeroListServices: HeroListServicesProtocol {
+class EventListServices: EventsListServicesProtocol {
     let session = URLSession.shared
     
-    func execute(handler: @escaping(Result<Hero, HeroError>) -> Void) {
-        let request: HomeRequest = .home
+    func execute(id: Int, handler: @escaping (Result<Events, EventError>) -> Void) {
+        let request: HomeRequest = .events
+        let eventsUrl = "\(request.baseURL)" + "/\(id)/events"
         
-        if var baseUrl = URLComponents(string: request.baseURL) {
-            baseUrl.query = request.path
-            guard let url = baseUrl.url else { return }
+        if var eventUrl = URLComponents(string: eventsUrl) {
+            eventUrl.query = request.path
+            guard let url = eventUrl.url else { return }
             
             var requestUrl = URLRequest(url: url)
             requestUrl.httpMethod = request.method.name
@@ -27,7 +28,7 @@ class HeroListServices: HeroListServicesProtocol {
                     do {
                         guard let jsonData = data else { return handler(.failure(.noProcessedData)) }
                         let decoder = JSONDecoder()
-                        let responseData = try decoder.decode(Hero.self, from: jsonData)
+                        let responseData = try decoder.decode(Events.self, from: jsonData)
                         
                         handler(.success(responseData))
                     } catch let error {
@@ -38,5 +39,4 @@ class HeroListServices: HeroListServicesProtocol {
             dataTask.resume()
         }
     }
-    
 }
